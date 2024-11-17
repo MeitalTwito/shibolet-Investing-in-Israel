@@ -14,13 +14,6 @@
   .header {
     padding: 0 5rem;
   }
-
-  .heading-primary {
-    font-size: 4.4rem;
-  }
-  .event-sub-heading {
-    font-size: 3.8rem;
-  }
 }
 
 /**************************/
@@ -131,14 +124,40 @@
 /**************************/
 @media (max-width: 44em) {
   .section-hero {
-    height: calc(90vh - 9.6rem - 15rem);
+    padding: 4.8rem 0 4.6rem 0;
   }
+  .event-description,
+  .event-tag {
+    font-size: 1.5rem;
+  }
+  .event-description {
+    letter-spacing: 2px;
+  }
+  .heading-primary {
+    font-size: 6rem;
+  }
+  .heading-primary span {
+    font-size: 1.4rem;
+  }
+  .event-logo-art {
+    height: 14rem;
+  }
+
   .event-location {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
   }
   .event-date {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
+  .section-description .container {
+    column-count: 1;
+  }
+
+  .section-speakers {
+    padding: 3.8rem 0;
+  }
+
   .logos img {
     height: 2rem;
   }
