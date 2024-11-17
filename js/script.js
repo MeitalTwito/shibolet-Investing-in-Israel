@@ -127,8 +127,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.className = savedTheme;
   } else {
     // Set a default theme if none is saved
-    document.body.className = "dark";
-    localStorage.setItem("theme", "dark");
+    document.body.className = "light";
+    localStorage.setItem("theme", "light");
   }
 
   // Add event listener to the toggle button
